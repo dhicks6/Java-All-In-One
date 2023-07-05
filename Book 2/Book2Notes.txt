@@ -1,0 +1,17 @@
+CHAPTER 1
+Key words:
+    Public- Used on a class to indicate that the elements that are withing this class should be made available
+        to other java elements so other classes can use the elements in the public class.
+    Class- A keyword that indicates the elements being defined is a class. Java programs are made up of one or 
+        multiple classes. A class definition contains code that defines the behavior of the objects created and used 
+        by the program. 
+    Void- In java a method is a unit of code that can calculate and return a value. If the method does not return a 
+        value then the keyword void must be used.
+    
+
+
+
+    PG 48
+    You can run your java code in the command line by compiling it using the javac Filename.java command this creates a class file 
+        named Filename.class. that contains the java bytecodes compiled for the class. You can then run the program by running the 
+        java Filename command.
