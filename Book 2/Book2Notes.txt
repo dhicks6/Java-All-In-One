@@ -7,7 +7,9 @@ Key words:
         by the program. 
     Void- In java a method is a unit of code that can calculate and return a value. If the method does not return a 
         value then the keyword void must be used.
-    
+    Object- Has both state and behavior. The state of an object consists of any data that the object might be keeping  
+        track of. The behavior of an object consists of actions that the object can perform. The behaviors are represented 
+        in the class by one or more methods that can be called on to perform actions.
 
 
 
@@ -15,3 +17,24 @@ Key words:
     You can run your java code in the command line by compiling it using the javac Filename.java command this creates a class file 
         named Filename.class. that contains the java bytecodes compiled for the class. You can then run the program by running the 
         java Filename command.
+
+    PG 51 Statements
+    Java has many types of statements some simply create cariables that can be used to store date called declaration statements, 
+        and some perform calculations called expression statements.
+
+    PG 58 Classes and objects
+    The difference between a class and an object is similar to the difference between a blueprint and a house. A blueprint is a 
+        plan for a house and a house is an implementation of a blueprint. One blueprint can be used to build many houses. Likewise 
+        a class is a plan for an object and an object in Java terms is an instance of a class. You can use a single class to create 
+        more than one object 
+    When an object is created Java sets aside an are of computer memory thats sufficent enough to hold all the date that's stored 
+        by the object. As a result each instance of a class has its own data independent of the data used by other instances of 
+        the same class.
+    UNDERSTANDING STATIC METHODS 
+    You don't have to create an instance of a class to use the methods of the class. By declaring a method static you can call the 
+        method without first creating an instance of the class because static methods are called by classes not objects.
+    PG 59
+    You can create an object from a class by creating a variable that provides a name you can use to refer to the object.
+        Then by  using the new keyword to create an instance of the class. Then you can assign the resulting object to the variable 
+        Like this - ClassName variableName = new ClassName();
+        
