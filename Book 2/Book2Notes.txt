@@ -10,7 +10,9 @@ Key words:
     Object- Has both state and behavior. The state of an object consists of any data that the object might be keeping  
         track of. The behavior of an object consists of actions that the object can perform. The behaviors are represented 
         in the class by one or more methods that can be called on to perform actions.
-
+    Import- Allows us to import classes from APIs to use the methods defined within those classes. The Java API contains 
+        thousands of classes to pick from. These classes are organized into packages. Import statements must appear in the 
+        beginning of a class before any class declarations.
 
 
     PG 48
@@ -38,3 +40,4 @@ Key words:
         Then by  using the new keyword to create an instance of the class. Then you can assign the resulting object to the variable 
         Like this - ClassName variableName = new ClassName();
         
+CHAPTER 2
