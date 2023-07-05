@@ -40,4 +40,13 @@ Key words:
         Then by  using the new keyword to create an instance of the class. Then you can assign the resulting object to the variable 
         Like this - ClassName variableName = new ClassName();
         
-CHAPTER 2
+CHAPTER 2 Working with Variables and Data types
+    Class Variables- a class variable is a variable that any method in a class can access, including static methods. For 
+        class variables you must place the decleration within the body of the class but not within any of the class methods, 
+        and you must include the word static in the declaration which comes before the variables type.
+    Instance Variables- Instance variables are associated with instances of classes. As a result you can use them only 
+        when you create an instance of a class. Because static methods aren't associated with an instance of a class   
+        you can't use and instance variable in a static method including the main method.
+    Local Variables- Declared within the body of a method which can only be used within that method. Other methods 
+        in the same class aren't even aware that the variable exists. These local variables only exist while the method 
+        they belong to is executing. 
